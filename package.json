@@ -1,0 +1,21 @@
+{
+  "name": "dev-tube-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.13.2"
+  }
+}
