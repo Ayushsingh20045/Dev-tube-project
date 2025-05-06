@@ -9,8 +9,8 @@ const {createUniqueHandle}= require("@lib/utils");
 passport.use(
     new GoogleStrategy(
         {
-            clientID: 'YOUR_GOOGLE_CLIENT_ID',
-            clientSecret: 'YOUR_GOOGLE_CLIENT_SECRET',
+            clientID: process.env.CLIENT_ID,
+            clientSecret: process.env.CLIENT_SECRET,
             callbackURL: '/api/auth/google/callback'
         },
         async(accessToken,refreshToken,profile,cb)=>{
